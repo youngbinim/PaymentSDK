@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PMModemDemo</string>
+    <string name="action_info">info.</string>
+    <string name="msg_version_suffix">Unknown</string>
+    <string name="dial_str">Dial</string>
+    <string name="send_data_str">Send Data</string>
+    <string name="hook_on_str">Hook On</string>
+    <string name="result_status">Result:</string>
+    <string name="null_str">Null</string>
+
+    <string name="initializing">Initializing...</string>
+    <string name="processing">processing...</string>
+
+</resources>

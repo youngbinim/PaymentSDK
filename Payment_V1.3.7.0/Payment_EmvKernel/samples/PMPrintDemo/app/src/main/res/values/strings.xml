@@ -1,0 +1,64 @@
+<resources>
+
+    <string name="app_name">PMPrintDemo</string>
+    <string name="action_info">Info</string>
+    <string name="help_readme">Help</string>
+    <string name="help_message">[Bluetooth Connection]\n\n
+        1. Turn Bluetooth on in \"Settings > Bluetooth\".\n\n
+        2. Turn a Bluetooth printer on, and activate Bluetooth mode.\n\n
+        3. Select \"Refresh\" menu in \"Settings > Bluetooth\".\n\n
+        4. After finding the printer in the list, try to connect and pair it to the device.\n\n
+        5. Enter the PIN code.\n
+        \t - Default PIN code\n
+        \t - Bixolon device is \"0000\"\n
+        \t - Sewoo device is \"0000\"\n
+        \t - Woosim device is \"1234\"\n
+        \t - Zebra device is \"0000\"\n\n
+        6. Select the appopriate printer in PrintDemo.\n\n
+        7. Press the \"Connect\" Button.\n\n
+        8. Press  the \"Print\" button to print a sample page.</string>
+    <string name="bixolon">Bixolon</string>
+    <string name="sewoo">Sewoo</string>
+    <string name="woosim">Woosim</string>
+    <string name="zebra">Zebra</string>
+    <string name="connect">Connect</string>
+    <string name="print">Print</string>
+    <string name="exit">Exit</string>
+    <string name="msg_version_suffix">Unknown</string>
+
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+
+    <string name="error_busy">Printer is busy. Please try again later.</string>
+    <string name="error_paper">Printer is lack of paper. Please check the cover and paper.</string>
+    <string name="error_format">Print data format error. Please try again later.</string>
+    <string name="error_broken">Printer is broken. Please check the printer.</string>
+    <string name="error_hot">Printer over temperature. Please try again later.</string>
+    <string name="error_unfinished">Print is unfinished. Please try again later.</string>
+    <string name="error_font">No print font library. Please try again later.</string>
+    <string name="error_overflow">Print buffer overflow. Please try again later.</string>
+    <string name="error_battery">Low battery. Please charge your device.</string>
+    <string name="error_other">Printer error. Please try again later.</string>
+    <string name="error_nopaper">Cover open or out of paper. Please check the cover and paper.</string>
+    <string name="error_temperature_low">Printer low temperature. Please try again later.</string>
+
+    <string name="initializing">Initializing...</string>
+    <string name="check_print">Print state check...</string>
+
+    <string name="gray_value">Gray Value : </string>
+    <string name="font_size">Font Size : </string>
+    <string name="print_example">Print Example</string>
+    <string name="test_example">Test Example</string>
+    <string name="text_print">Text Print</string>
+    <string name="logo_print">Logo Print</string>
+    <string name="barcode_print">Barcode Print</string>
+    <string name="line_feed_text">Line Feed Test</string>
+    <string name="lines">Lines : </string>
+    <string name="hour">Hours : </string>
+    <string name="stress_test">Stress Test Start</string>
+    <string name="stress_test_stop">Stress Test Stop</string>
+
+    <string name="error_invalide_gray">Invalide gray value. \nPlease insert 1 ~ 6.</string>
+    <string name="error_invalide_font">Invalide font size. \nPlease insert 0 ~ 3.</string>
+
+</resources>

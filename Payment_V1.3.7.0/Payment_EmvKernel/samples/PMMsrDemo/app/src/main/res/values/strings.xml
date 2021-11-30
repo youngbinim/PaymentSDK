@@ -1,0 +1,105 @@
+<resources>
+
+    <!-- Application -->
+    <string name="app_name">PMMSRDemo</string>
+    <string name="msg_version_suffix">Unknown</string>
+    <string name="action_info">Information</string>
+    <!-- UI -->
+    <string name="btn_read_start">Start reading</string>
+    <string name="btn_read_init">Start Initialization</string>
+    <string name="btn_read_stop">Stop reading</string>
+    <string name="label_read_result">Result :</string>
+    <string name="hind_read_result">Card Information.</string>
+    <string name="read_fail">Failed to Read card.</string>
+    <string name="wait_msg">Please wait....</string>
+    <string name="require_swipe_card">Swipe card.</string>
+    <string name="label_auto_scan">Auto Repeat</string>
+    <string name="label_save_log">Save log</string>
+    <string name="label_beep_sound">Beep sound</string>
+
+    <string name="hint_msr_status">Read Status :</string>
+    <string name="hint_msr_status_value">It displays whether this card tracking is success or not.</string>
+    <string name="hint_msr_track1">Track1 :</string>
+    <string name="hint_msr_track2">Track2 :</string>
+    <string name="hint_msr_track3">Track3 :</string>
+    <string name="hint_msr_track">Track value</string>
+    <string name="hint_msr_result">Result</string>
+    <string name="image">Image</string>
+
+    <!-- Permission-->
+    <string name="permission_denied">Storage Permission is DENIED..</string>
+    <string name="permission_request">Permission:\n %1$s was %2$d</string>
+    <string name="permission_revoked">Permission is revoked</string>
+
+    <!--btn-->
+    <string name="btn_stop_reading">Stop reading</string>
+    <string name="btn_start_reading">Start reading</string>
+
+    <!--textView-->
+    <string name="read_status">Reading...</string>
+    <string name="stop_status">Stop</string>
+    <string name="read_fail_status">read[Read failed]</string>
+    <string name="repeating_status">/ Repeating..</string>
+    <string name="read_error_msg">read[%1$s]</string>
+    <string name="track1">,\t track1=</string>
+    <string name="track2">,\t track2=</string>
+    <string name="track3">,\t track3=</string>
+    <string name="fail">[fail]</string>
+    <string name="success">[success]</string>
+    <string name="result_category">[All read/Part read/Fail/Total] = [ %1$d / %2$d / %3$d / %4$d ]</string>
+    <string name="track1_count">\n Track1Count = %1$d</string>
+    <string name="track2_count">\n Track2Count = %1$d</string>
+    <string name="track3_count">\n Track3Count = %1$d</string>
+    <string name="start_reading">Start reading</string>
+
+    <!-- error msg -->
+    <string name="track_success">Success\t</string>
+    <string name="track2_track3_fail"> part(Track2,3 fail</string>
+    <string name="track1_track3_fail"> part(Track1,3 fail)</string>
+    <string name="track3_fail"> part(Track3 fail)</string>
+    <string name="track1_track2_fail"> part(Track1,2 fail)</string>
+    <string name="track2_fail"> part(Track2 fail)</string>
+    <string name="track1_fail"> part(Track1 fail)</string>
+    <string name="all_track_success"> all</string>
+    <string name="track_read_fail">Read failed</string>
+
+    <string name="iccr_read_success">read[success]</string>
+    <string name="iccr_read_fail">read[fail]</string>
+
+    <!--Result-->
+    <string name="result_read">read[%1$s]</string>
+    <string name="result_track1">, track1=</string>
+    <string name="result_track2">, track2</string>
+    <string name="result_track3">, track3</string>
+    <string name="result_success">[success]</string>
+    <string name="result_fail">[fail]</string>
+    <string name="result_count">[All read/Part read/Fail/Total] = [%1$d/%2$d/%3$d/%4$d]
+    \nTrack1Count = %5$d \nTrack2Count = %6$d \nTrack3Count = %7$d</string>
+    <string name="result_track1_count">\nTrack1Count = %1$d</string>
+    <string name="result_track2_count">\nTrack2Count = %2$d</string>
+    <string name="result_track3_count">\nTrack3Count = %3$d</string>
+
+    <!--logfile-->
+    <string name="log_to_file">Result[Success/Part/Fail(Total)], track1 [count/data], track2 [count/data], track3 [count/data]</string>
+    <string name="log_result">result = [%1$d/%2$d/%3$d/(%4$d)]</string>
+    <string name="log_track1">track1 = [%1$d/%2$s]</string>
+    <string name="log_track2">track2 = [%1$d/%2$s]</string>
+    <string name="log_track3">track3 = [%1$d/%2$s]</string>
+
+    <!--Toast Msg-->
+    <string name="msr_open_error">Lib_MsrOpen error</string>
+    <string name="swipe_ms_card">Swipe the MS card!</string>
+
+    <string name="initializing">Initializing...</string>
+
+    <!--Clear Data Dialog-->
+    <string name="clear_data_dialog_title">Clear the test data!</string>
+    <string name="clear_data_dialog_msg">Are you sure?</string>
+    <string name="clear_data_dialog_positive">YES</string>
+    <string name="clear_data_dialog_negative">NO</string>
+    <string name="data_clear_success_msg">The test data cleared!</string>
+    <string name="data_clear_cancel_msg">The test data clearing canceled!</string>
+
+
+
+</resources>

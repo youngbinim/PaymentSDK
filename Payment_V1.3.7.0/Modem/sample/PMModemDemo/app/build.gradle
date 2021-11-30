@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "kr.co.pointmobile.modemdemo"
+        minSdkVersion 24
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+        }
+    }
+
+}
+
+dependencies {
+    implementation files('libs/AndroidAPI.jar')
+    implementation files('libs/ModemAPI.jar')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+}
